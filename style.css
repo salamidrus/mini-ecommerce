@@ -184,7 +184,8 @@ nav {
 }
 
 .features {
-  align-items: center;
+  display: flex;
+  /* align-items: center; */
   justify-content: space-between;
   padding: 50px;
 }
@@ -369,7 +370,6 @@ label {
 
 .gallery {
   padding: 50px;
-  display: flex;
 }
 
 .galleryItem {
