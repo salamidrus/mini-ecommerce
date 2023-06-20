@@ -330,6 +330,9 @@ label {
 
 .colors,
 .sizes {
+  /* TODO: Add something here to fix 
+  Bug fixes
+  Fix the color change and size positions on product detail page */
   margin-bottom: 20px;
 }
 
@@ -369,6 +372,9 @@ label {
 }
 
 .gallery {
+  /* TODO: Add something here to fix 
+  Bug fixes
+  Show the pictures correctly on gallery items */
   padding: 50px;
 }
 

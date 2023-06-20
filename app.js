@@ -1,12 +1,19 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 
-const products = [
+
+
+const products = 
+// TODO: Add something here in one of the product
+// to Add more products with same components and style
+[
   {
     id: 1,
     title: "Air Force",
     price: 119,
     colors: [
+      // TODO: Add something here in one of the product
+      // to add more content on product page colors
       {
         code: "black",
         img: "./img/air.png",
@@ -132,4 +139,7 @@ close.addEventListener("click", () => {
   payment.style.display = "none";
 });
 
-
+// TODO: Add new event listeners (BONUS - OPTIONAL)
+// 1. Give Product status (Available or Out of stock) at specific color and size
+// 2. When user click out of stock product, show message that you cannot buy the selected produc
+// 3. Add new layout to show order success when clicking checkout 
